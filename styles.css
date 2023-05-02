@@ -1,0 +1,59 @@
+.dropdown-item:hover {
+    color: white
+}
+.border-bottom {
+    opacity: 100%;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.95em;
+}
+.text-custom {
+    color: greenyellow;
+}
+.dropdown-item.active {
+    color: white;
+    background-color: inherit;
+}
+
+img {
+    height: 25%;
+    width: 75%;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+    
+}
+.img-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-expand:hover {
+    font-size: 1.5em;
+    transition: font-size 0.2s ease-in-out
+}
+.hover-expand-less:hover {
+    font-size: 1.25em;
+    transition: font-size 0.2s ease-in-out
+}
+
+.btn-social {
+    font-size: 2em;
+}
+
+
+#git-logo-large {
+    font-size: 3em;
+}
+.btn-social:hover, #git-logo-large:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}

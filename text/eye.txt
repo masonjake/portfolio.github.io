@@ -1,0 +1,1 @@
+This project was a very cool learning experience.  I got to use my first event handlers and got much more familiar with manipulating the DOM. This project created an eye on screen with a pupil that followed the user's mouse movement.  I decided to add more styles and turn it into a happy face! Please click the github logo to view the repository.

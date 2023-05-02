@@ -1,0 +1,1 @@
+This is an exapmple of a website I made while practicing some of the skills I learned while taking this bootcamp. In this site I was practicing taking the input from an online form and adding it onto the page.  This was very difficult at the time and made me much better at interacting with the DOM.

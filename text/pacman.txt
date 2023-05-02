@@ -1,0 +1,1 @@
+This was one of my favorite projects.  We used collision detection to make the pacman objects bounce around on-screen.  Also, we used a resursive function to make the pacman's mouth open and close. The app also had a button to add more "pacmen" on-screen.  This made a really fun pacman factory of sorts! Please click the github logo to view the repository.

@@ -1,0 +1,1 @@
+This page will be highlighting a few of my favorite projects I completed while taking the full stack development course through MIT xPro. Each card will have a description and will link back to the corresponding repository.
