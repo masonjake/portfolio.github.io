@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a website that showcases the skils I have learned thiusfar in the MIT xPro bootcamp. There are a few pages with a bio, intro video and more.
+This is a website that showcases the skills I have learned thus far in the MIT xPro bootcamp. There are a few pages with a bio, intro video and more.
 
 ### How to run locally:
 
@@ -17,4 +17,5 @@ Visit the github pages site to view.
 2. Turn the portfolio into an SPA(single page application)
 3. Add clear opaque overlays.
 4. Fix the pages expanding on mobile when it is hovered.
-5. Add styling with emotion UI instead of Bootstrap. 
+5. Add styling with emotion UI instead of Bootstrap.
+6. Will Embed the projects into the website!

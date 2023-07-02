@@ -4,7 +4,7 @@ async function getText(filename, id) {
 	let div = document.getElementById(id);
 	div.textContent = text;
 }
-let docs = [
+const docs = [
 	{ name: 'welcome.txt', id: 'welcome' },
 	{ name: 'xpro-bio.txt', id: 'xpro-bio' },
 	{ name: 'bus.txt', id: 'bus' },
@@ -15,17 +15,24 @@ let docs = [
 	{ name: 'practiceSite.txt', id: 'practice-site' },
 ];
 
+//prettier-ignore
+const pages = {
+	'': 'home.html',
+	'#home': 'home.html',
+	'#personalProjects': 'personalProjects.html',
+	'#xproProjects': 'xproProjects.html'
+}
+
+async function router(page) {
+	let url = pages[page];
+	let response = await fetch(url);
+	let text = await response.text();
+	let container = document.getElementById('content');
+	container.innerHTML = text;
+}
+
 docs.forEach((file) => {
 	getText(file.name, file.id);
 });
 
-// function hide(id) {
-// 	let div = document.getElementById(id);
-// 	div.style.display = 'none';
-// }
-
-// function changePage(page) {
-// 	if (active) {
-// 		hide(page);
-// 	}
-// }
+router(window.location.hash);
