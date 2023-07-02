@@ -14,5 +14,7 @@ Visit the github pages site to view.
 ### Coming soon:
 
 1. Fix the blue flash when clicking an item in the navbar.
-2. Add dynamic styling without the use of multiple html files.
-3. Add theme picker.
+2. Turn the portfolio into an SPA(single page application)
+3. Add clear opaque overlays.
+4. Fix the pages expanding on mobile when it is hovered.
+5. Add styling with emotion UI instead of Bootstrap. 
